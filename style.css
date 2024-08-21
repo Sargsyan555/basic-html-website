@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h3, h2, h1{ 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+a{
+    text-decoration: none;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e5e5e5;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    text-shadow: 1px 1px 2px black;
+    color: white;
+    font-size: 40px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #d88adb;
+    padding: 20px 0;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav .search {
+    display: flex;
+    width: 25%;
+}
+
+nav .search input {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    width: 70%;
+}
+
+nav .search button {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: black;
+    color: white;
+    margin-left: 5px;
+    width: 30%;
+    cursor: pointer;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+}
+main article {
+    width: 75%;
+    background-color: white;
+    padding: 20px 20px;
+    margin-top: 30px;
+
+}
+main article .firstPart{
+    padding: 20px 0;
+}
+main article .firstPart h2{
+    text-align: center;
+    font-size: 40px;
+}
+main article .firstPart p{
+    padding-top: 20px;    
+}
+main article .secondPart p{
+    padding-top: 20px;    
+}
+main aside{
+    width: 15%;
+    margin-top: 30px;
+    background-color: #d88adb;
+    padding: 40px;
+
+}
+main aside h3{
+    font-size: 40px;
+}
+main aside ul{
+    margin-top: 40px;
+}
+footer{
+    margin-top: 10px;
+    padding: 30px 10px;
+    background-color: white;
+
+}
